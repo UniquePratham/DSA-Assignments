@@ -1,0 +1,9 @@
+Run 9 for setSize - 5 
+
+Random Numbers List from range -5 to 5 : 
+
+Unsorted Random Numbers: -1 -5 -3 -1 4 
+
+Sorted Random Numbers: -5 -3 -1 -1 4 
+
+Number of Comparisons for this run = 2

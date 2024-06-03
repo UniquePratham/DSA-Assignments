@@ -1,0 +1,156 @@
+                                                                       CLASS ASSIGNMENTS
+
+1. Class-Assignment 1: Spiral Filling of a 2D Square Matrix (03/10/2023) - Given n as input from user, write a program to fill a n x n square matrix  with 1 to n2 spirally starting from top left corner of the matrix and print the matrix.
+
+2. Class-Assignment 2: Structure and Files (10/10/2023) - File: student.txt
+3
+01 Pritha 50
+02 Anurina 70
+03 Aradhita 30
+A set of students information roll, name, marks are given in a file. Read the name of file through command line arguments. Allocate an array of students records ( structure) using dynamic memory allocation. Print the list of students along with their marks (one per line) in increasing order and write their ranks: i.e  rank, roll, name, marks.
+
+3. Class-Assignment 3: Fibonacci Sequence and Generation of Permutations (16/10/2023) - 
+3a)F(n) = F(n-1) + F(n-2), for all n > 1
+F(0) = 0 and F(1) = 1  
+1)Write an iterative program to print the nth term in the Fibonacci sequence for a given input n.  
+2) Write a recursive program
+
+to print the nth term in the Fibonacci sequence for a given input n. Let c(i) represents the number of times  F(i) is called in the recursion. Compute c(i) , for i = 1 to n,
+Example:
+F(5) calls F(4) and F(3)
+|
+F(4) ----------------------------------------------------- F(3)
+|                                                          |
+F(3)-----------------F(2)                                  F(2)-------------------F(1)
+|                    |                                     |                      |
+F(2)----- F(1)       F(1)----- F(0)                        F(1)----- F(0          stop
+|                    |         |                           |         |
+F(1)----- F(0)       stop      stop                        stop      stop
+|         |
+stop      stop
+
+c (0) = 3, c(1) = 5, c(2)= 3, c(3) = 2, c(4) = 1, c(5) = 1
+
+3b) Given an input n, write a program to generate all possible permutations of numbers taking 1, 2, .. n. (see attached file  and the link to get an idea to generate the permutations) 
+
+4. Class-Assignment 4: Insertion Sort (31/10/2023) - Write a C program implementing Insertion sort. Run the program with  same  set of random numbers as in Bubble sort. Count the number of comparisons in each case.  
+
+5. Class-Assignment 5: Merge Sort (07/11/2023) - Write a C program implementing Merge sort. Run the program with  same  set of random numbers as in Bubble sort. Count the number of comparisons in each case.
+
+6. Class-Assignment 6: Stacks and its Application (21/11/2023) - 
+1. Implement the operations on stack: push, pop, top (show the top), display (the stack).
+2. A stack -sortable permutation is one, where given a set of integers, and an empty stack s, using the push and pop operations on the given set of integers, the given set of integers can be sorted. Note that when a pop operation is performed it is an output. if it is possible to generate the sorted sequence we say, it is stack sortable else no.
+Given a set of integers in an array, write a program to find if the given set of integers is stack sortable or not.
+
+7. Class-Assignment 7: Implementation of Queue (28/11/2023) - Write a program implementing the operations on Queue using array.
+The operations:
+1) Enqueue, 2) Dequeue 3) Count ( display the number of elements in queue)
+
+8. Class-Assignment 8: Implementation of Singly Linked List (12/12/2023) - Implement a singly linked list and
+1. Insert nodes from The end.
+2. Search for a particular node in the linked list.
+3. Delete the element which was searched from the linked list(if present).
+Use functions to implement The following.
+
+9. Class-Assignment 9: Quick Sort (19/12/2023) - Implement the quicksort algorithm.
+Generate 1000, 5000, 10000... random numbers and give it as input.
+Report the number of swaps (exchanges) required for each of n = 1000, 5000, 10000 and so on.
+
+10. Class-Assignment 10: Binary Search Tree (16/01/2024) - Write a menu driven C program to 
+a) insert n keys generated randomly to insert in a binary search tree.   
+b) print the BST by  inorder traversal to verify that created BST is correct.
+c) compute and print the height of the BST created.
+
+11. Class-Assignment 11: Max Heap (06/02/2024) - Write a menu driven program to implement the following:
+a) Given an array of integers, build a heap
+b) Extract and remove the max element
+c) Display the heap as a tree.
+
+
+                                                                          HOME ASSIGNMENTS
+
+1. Home-Assignment 1: Miscellaneous (20/10/2023) - Use the C programming language to solve the question(s)
+1.1 Generate n Pseudo-random numbers (+ve and -ve) between a range [a:b] using c rand() function and store
+them in a file. Implement Bubble sort. Take the randomly generated inputs in previous step to run the Bubble
+sort. In Bubble sort, count the number of times swaps happen. Now take 100, 500, 1000, 10000, 100000,
+500000 and more numbers of random numbers as input to Bubble sort and report each time the number of
+swaps happening. Now take 10 sets of input for each of 100, 500, 1000, 10000, 100000, 500000 randomly
+generated numbers and run bubble sort on it. For each of 100, 500, 1000, 10000, 100000, 500000 numbers,
+report the average number of swaps.
+1.2 Given two big integers a and b of length m and n, multiply them and print their results (Use dynamic
+memory allocations to create arrays). Note that, big integers can not be stored even in long int. You need to
+create an array of m characters to store a m digit integer. You have to write the code the way you did your
+multiplication in primary school, i.e, multiply, shift, add. Ex: 1234567 x 1111 is done as follows
+1234567
+1111
+-------
+1234567
+1234567
+1234567
+1234567
+-----------
+1371603937
+1.3 Create an attendance file ”attendance.txt” that contains roll numbers, names and attendances of all students
+on different dates. Given your attendance file, store the information of the student in appropriate structure to
+compute the following: (Write a menu driven program.)
+• print % of attendance of each student till a particular date and store the results in a file.
+• print the details of the student who has the highest percentage of attendance till a particular date.
+• print the total number of classes taken by the teacher
+• print the details of the student who has the lowest percentage of attendance till a particular date.
+• print the mean percentage of attendance till a particular date.
+• ..... (if you can extract any other information from attendance)
+
+2. Home-Assignment 2: Infix to Postfix Conversion and Evaluation of an Expression (06/12/2023) - Given an infix expression of single digits ( 0 to 9) and operators +, -, *, / , using a stack write a program that
+1) converts the infix expression to postfix expression 
+2) evaluates the postfix expression.
+
+3. Home-Assignment 3: Circular Queue using Array (06/12/2023) - Write a program to implement a circular queue with following operations:
+1) enque
+2) dequeue
+3) count number of elements in queue
+4. Show the status of queue in the array with valid queue elements.
+
+4. Home-Assignment 4: Polynomial Expression Add, Subtract and Multiply (25/12/2023) - Write a menu driven ( see below) program to implement addition, subtraction, multiplications of two polynomial expression that uses  circular singly linked list. The node stores the coefficient, exponent pair of the polynomial expression. they must always be in decreasing order of the exponent in the circular singly linked list. You must use the "Avail" singly linked list for new nodes in the polynomial and return a node from polynomial to "Avail" list whenever a node is deleted from a polynomial due to add, subtract, multiply operations. 
+at the end of the program, you must free the "Avail" list.
+
+The menu is as follows:
+
+1. Create a polynomial
+2. Add polynomial (A, B)
+3. Subtract polynomial (A, B)
+4. Multiply polynomial (A, B)
+5. Display polynomial (A)
+6. Display Avail List
+7. Exit
+
+5. Home-Assignment 5: Double Ended Queue (25/12/2023) - Implement a Double ended queue using doubly linked list.
+It should have the following menu:
+
+1. Insert at Front (a)
+2. Insert at End (a)
+3. Remove from Front (a)
+4. Remove from End (a)
+5. Display the content of Queue
+
+6. Home-Assignment 6: Binary Search Tree (16/01/2024) - Write a complete menu-driven C program to do the following:
+
+a) Insertion of keys in BST
+b) Search a key in BST
+c) Delete a Key from BST
+d) Inorder traversal of BST to print BST
+e) print height of BST
+
+Generate 1000, 5000, 10000, 50000 and so on random numbers and consider them to be the inputs. Run your program  to insert those keys, compute the height of the tree in each case. Report the height and best case height of such number of keys.
+
+Run BST insertion for 10 sets of each of 1000, 5000, 10000, 50000 .... random  key values. Compute the average height of BST for each of  1000, 5000, 10000, 50000 keys and compare with best case heights.
+
+7. Home-Assignment 7: AVL Tree (31/01/2024) - Write a menu driven program to insert and delete keys in an AVL tree. There must be an option to print the tree as follows:
+1) by inorder traversal
+2) as we draw binary trees on paper.
+
+8. Home-Assignment 8: Heap Sort (08/02/2024) - Implement Heapsort taking 1000, 5000, 10000, 50000 random numbers. Count  number of comparisons in each case.
+
+9. Home-Assignment 9: Hashing by Chaining (08/02/2024) - Implement hash table with chaining by generating n =1000, 5000, 10000, 25000, 50000 keys. Let the universe U of keys be the maximum size of "long int" . Use appropriate m value. In chaining, insert the node at last. 
+Count the number of nodes traversed during each insertion of key values.
+1) Find the average of count over all n insertions. 
+2) Find the maximum length of any chain
